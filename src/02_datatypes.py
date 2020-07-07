@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Python is a strongly-typed language under the hood, which means
 that the types of values matter, especially when we're trying
@@ -10,7 +11,7 @@ on a string and an integer.
 
 x = 5
 y = "7"
-
+print(x + int(y))
 # Write a print statement that combines x + y into the integer value 12
 
 # YOUR CODE HERE

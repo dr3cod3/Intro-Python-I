@@ -46,4 +46,5 @@ elif len(sys.argv) == 2:
     print(result)
 else:
     print("Please provide the year and month in this format YYYY, M")
+    sys.exit(1)
     
